@@ -44,6 +44,8 @@ able to see the same files in the replicationbucket28-sydney bucket.
 Case 2 :
 Go to the original bucket: myversioningbucket28  and delete the text file and you will see the delete marker of that file in show versions.
 Now when you move to the  replicationbucket28-sydney bucket you can see the files would be present here and there would not be any delete marker for the same.
-Anyt actions on the original bucket would not affect the replicated bucket and this is a security feature.
+Any actions on the original bucket would not affect the replicated bucket and this is a security feature.
 1. Only changes and additions will be affected.
 2. deletions (delete markers, deleted files/objects) would not be done on the replicated bucket.
+3.
+4.
